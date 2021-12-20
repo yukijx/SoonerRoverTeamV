@@ -3,7 +3,7 @@ from time import sleep
 
 if __name__ == '__main__':
     print('starting gps')
-    gps.gps_init('127.0.0.1','8080')
+    gps.gps_init('192.168.1.2','55556')
     print('reading data')
     while True:
         print(gps.get_latitude())
